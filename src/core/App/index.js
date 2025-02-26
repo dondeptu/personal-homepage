@@ -1,12 +1,12 @@
 import { ThemeProvider } from "styled-components";
-import { Normalize } from "styled-normalize";
 import { LightMode } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
+import { PersonalHomepage } from "../../features/personalHomepage";
 
 export const App = () => (
     <ThemeProvider theme={LightMode}>
-        <Normalize />
         <GlobalStyle />
+        <PersonalHomepage />
     </ThemeProvider>
 );
 
