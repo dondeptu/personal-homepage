@@ -12,6 +12,7 @@ const colorsPalette = {
 const common = {
     breakpoints: {
         mobileMax: 767,
+        tabletMax: 991,
     },
 };
 

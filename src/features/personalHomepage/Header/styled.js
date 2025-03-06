@@ -7,6 +7,10 @@ export const Wrapper = styled.header`
     grid-gap: 72px;
     align-items: center;
 
+    @media(max-width: ${({ theme }) => theme.breakpoints.tabletMax}px) {
+        grid-gap: 32px;
+    }
+
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 16px;
@@ -51,6 +55,10 @@ export const About = styled.p`
     letter-spacing: 0.05em;
     max-width: 633px;
     margin: 35px 0 0 0;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin-top: 22px;
+    }
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 17px;
