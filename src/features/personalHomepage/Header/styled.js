@@ -39,7 +39,6 @@ export const Name = styled.h1`
     font-size: 38px;
     font-weight: 900;
     line-height: 1.2;
-    letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.headers};
     margin: 12px 0 0 0;
 
@@ -52,11 +51,10 @@ export const Name = styled.h1`
 export const About = styled.p`
     font-size: 20px;
     line-height: 1.4;
-    letter-spacing: 0.05em;
     max-width: 633px;
     margin: 35px 0 0 0;
 
-    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.tabletMax}px) {
         margin-top: 22px;
     }
 
@@ -74,7 +72,6 @@ export const ButtonLink = styled.a`
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
-    letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.buttonLink.text};
     background: ${({ theme }) => theme.colors.primary};
     padding: 12px 16px;

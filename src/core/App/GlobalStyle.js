@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
         background: ${({ theme }) => theme.colors.page.background};
         color: ${({ theme }) => theme.colors.page.text};
         font-size: 18px;
+        letter-spacing: 0.05em;
         word-break: break-word;
         padding-bottom: 109px;
         
