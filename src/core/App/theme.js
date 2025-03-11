@@ -13,7 +13,9 @@ const common = {
     breakpoints: {
         mobileMax: 767,
         tabletMax: 991,
+        smallDesktopMax: 1199,
     },
+    boxShadow: "0 16px 58px rgba(9, 10, 51, 0.03), 0 -2px 50px rgba(9, 10, 51, 0.02)",
 };
 
 export const LightMode = {
@@ -31,5 +33,7 @@ export const LightMode = {
             shadowFocus: colorsPalette.anakiwa,
             shadowSelected: colorsPalette.parsley,
         },
+        boxBackground: colorsPalette.white,
+        headerLine: colorsPalette.iron,
     },
 };
