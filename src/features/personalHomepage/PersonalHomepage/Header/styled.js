@@ -23,7 +23,7 @@ export const ProfileImage = styled.img`
     border-radius: 50%;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        max-width: 128px;
+        min-width: 128px;
     }
 `;
 
@@ -54,13 +54,17 @@ export const About = styled.p`
     max-width: 633px;
     margin: 35px 0 0 0;
 
+    @media(max-width: ${({ theme }) => theme.breakpoints.smallDesktopMax}px) {
+        max-width: 90%;
+    }
+
     @media(max-width: ${({ theme }) => theme.breakpoints.tabletMax}px) {
         margin-top: 22px;
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 17px;
-        max-width: 275px;
+        max-width: 95%;
         margin-top: 16px;
     }
 `;
