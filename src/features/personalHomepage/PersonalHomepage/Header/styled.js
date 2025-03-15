@@ -39,7 +39,7 @@ export const Name = styled.h1`
     font-size: 38px;
     font-weight: 900;
     line-height: 1.2;
-    color: ${({ theme }) => theme.colors.headers};
+    color: ${({ theme }) => theme.colors.textPrimary};
     margin: 12px 0 0 0;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
@@ -76,7 +76,7 @@ export const ButtonLink = styled.a`
     background: ${({ theme }) => theme.colors.primary};
     padding: 12px 16px;
     border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
-    border-radius: 4px;
+    border-radius: ${({ theme }) => theme.borderRadius};
     transition: box-shadow 0.3s;
 
     &:hover, &:focus {

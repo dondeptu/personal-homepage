@@ -1,6 +1,8 @@
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { startFetch } from "../../repositoriesSlice";
+import { Header, Paragraph, Section, StyledGithubIcon } from "./styled";
+import { SubHeader } from "../SubHeader/styled";
 
 export const Portfolio = () => {
     const githubUsername = "dondeptu";
@@ -14,8 +16,13 @@ export const Portfolio = () => {
     }, [dispatch]);
 
     return (
-        <section>
-
-        </section>
+        <Section>
+            <Header>
+                <StyledGithubIcon />
+                <SubHeader>Portfolio</SubHeader>
+                <Paragraph>My recent projects</Paragraph>
+            </Header>
+            
+        </Section>
     );
 };

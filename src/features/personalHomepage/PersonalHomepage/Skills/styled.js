@@ -7,7 +7,7 @@ export const Section = styled.section`
     padding: 32px;
     background: ${({ theme }) => theme.colors.boxBackground};
     box-shadow: ${({ theme }) => theme.boxShadow};
-    border-radius: 4px;
+    border-radius: ${({ theme }) => theme.borderRadius};
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 48px;
@@ -27,7 +27,7 @@ export const StyledHeader = styled(SubHeader)`
 export const List = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 8px 90px;
+    grid-gap: 8px 88px;
     padding: 0;
     margin-top: 32px;
     list-style: none;
