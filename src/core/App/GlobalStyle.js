@@ -22,7 +22,8 @@ export const GlobalStyle = createGlobalStyle`
         padding-bottom: 109px;
         
         @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-            padding-bottom: 31px;
+            font-size: 14px;
+            padding-bottom: 32px;
         }
     }
 `;

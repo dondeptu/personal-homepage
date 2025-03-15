@@ -38,7 +38,7 @@ export const LightMode = {
         boxBorder: colorsPalette.iron,
         boxBackground: colorsPalette.white,
         headerLine: colorsPalette.iron,
-        tile: {
+        repoTile: {
             border: colorsPalette.iron,
             borderHover: colorsPalette.scienceBlueTransparent,
             header: colorsPalette.scienceBlue,
