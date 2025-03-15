@@ -7,14 +7,16 @@ export const PersonalHomepage = () => {
     return (
         <Wrapper>
             <Header />
-            <Skills
-                header={"My skillset includes 🛠️"}
-                skills={skills}
-            />
-            <Skills
-                header={"What I want to learn next 🚀"}
-                skills={skillsToLearn}
-            />
+            <main>
+                <Skills
+                    header={"My skillset includes 🛠️"}
+                    skills={skills}
+                />
+                <Skills
+                    header={"What I want to learn next 🚀"}
+                    skills={skillsToLearn}
+                />
+            </main>
         </Wrapper>
     );
 };
