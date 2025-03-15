@@ -54,11 +54,18 @@ export const Item = styled.li`
     line-height: 1.4;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        gap: 8px;
         line-height: 1.0;
     }
 `;
 
 export const StyledDot = styled(Dot)`
     width: 9px;
+    height: auto;
     color: ${({ theme }) => theme.colors.primary};
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        width: 6px;
+        min-width: 6px;
+    }
 `;
