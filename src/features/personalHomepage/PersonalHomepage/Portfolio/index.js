@@ -4,6 +4,7 @@ import { selectRepositoriesContent, startFetch } from "../../repositoriesSlice";
 import { Header, Paragraph, Section, StyledGithubIcon } from "./styled";
 import { SubHeader } from "../SubHeader/styled";
 import { Repositories } from "./Repositories";
+import { Loading } from "./Loading";
 
 export const Portfolio = () => {
     const githubUsername = "dondeptu";
@@ -23,7 +24,8 @@ export const Portfolio = () => {
                 <SubHeader>Portfolio</SubHeader>
                 <Paragraph>My recent projects</Paragraph>
             </Header>
-            <Repositories repositories={repositoriesContent} />
+            {/* <Repositories repositories={repositoriesContent} /> */}
+            <Loading />
         </Section>
     );
 };
