@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { LightMode } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
-import { PersonalHomepage } from "../../features/personalHomepage";
+import { PersonalHomepage } from "../../features/personalHomepage/PersonalHomepage";
 import { Normalize } from "styled-normalize";
 
 export const App = () => (

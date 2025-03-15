@@ -1,6 +1,6 @@
-import { Header } from "./PersonalHomepage/Header";
-import { Skills } from "./PersonalHomepage/Skills";
-import { skills, skillsToLearn } from "./PersonalHomepage/Skills/skillsData";
+import { Header } from "./Header";
+import { Skills } from "./Skills";
+import { skills, skillsToLearn } from "./Skills/skillsData";
 import { Wrapper } from "./styled";
 
 export const PersonalHomepage = () => {
