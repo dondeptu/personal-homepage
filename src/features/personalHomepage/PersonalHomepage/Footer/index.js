@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import { Address, Caption, Email, EmailBox, Paragraph, Wrapper } from "./styled";
 import { selectRepositoriesStatus } from "../../repositoriesSlice";
 import { SocialMedia } from "./SocialMedia";
+import { email } from "../email";
 
 export const Footer = () => {
     const status = useSelector(selectRepositoriesStatus);
@@ -11,7 +12,7 @@ export const Footer = () => {
             <Caption>Let’s talk!</Caption>
             <Address>
                 <EmailBox>
-                    <Email href="mailto:dondeptu@gmail.com">dondeptu@gmail.com</Email>
+                    <Email href={`mailto:${email}`}>{email}</Email>
                 </EmailBox>
                 <Paragraph>
                     I'm open to new opportunities in Frontend Development. To me, it's&nbsp;not just about writing
