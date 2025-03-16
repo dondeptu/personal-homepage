@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
-import { Address, Caption, Email, EmailBox, Paragraph, SocialIcons, Wrapper } from "./styled";
+import { Address, Caption, Email, EmailBox, Paragraph, Wrapper } from "./styled";
 import { selectRepositoriesStatus } from "../../repositoriesSlice";
+import { SocialMedia } from "./SocialMedia";
 
 export const Footer = () => {
     const status = useSelector(selectRepositoriesStatus);
@@ -17,9 +18,7 @@ export const Footer = () => {
                     code&nbsp;—&nbsp;it’s about making things simple and enjoyable for real people. If you're looking for
                     an&nbsp;enthusiastic developer ready to grow and contribute, let's&nbsp;connect! 🌸
                 </Paragraph>
-                <SocialIcons>
-
-                </SocialIcons>
+                <SocialMedia />
             </Address>
         </Wrapper>
     );

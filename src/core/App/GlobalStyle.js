@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
         
         @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             font-size: 14px;
-            padding-bottom: 32px;
+            padding-bottom: 31px;
         }
     }
 `;
