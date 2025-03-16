@@ -1,5 +1,5 @@
 import donataDeptulaAvatar from "./avatar.jpg";
-import { ButtonLink, About, Name, IntroText, ProfileImage, Wrapper, StyledEnvelopeIcon } from "./styled";
+import { About, Name, IntroText, ProfileImage, Wrapper, StyledEnvelopeIcon, StyledButtonLink } from "./styled";
 
 export const Header = () => (
     <Wrapper>
@@ -11,10 +11,10 @@ export const Header = () => (
                 👩🏼‍💻 I'm a Frontend Developer growing in React, looking to gain experience in a professional environment.
                 If you're looking for someone who is dedicated and eager to learn – I would love to join your team!
             </About>
-            <ButtonLink href="mailto:dondeptu@gmail.com" title="dondeptu@gmail.com">
+            <StyledButtonLink href="mailto:dondeptu@gmail.com" title="dondeptu@gmail.com">
                 <StyledEnvelopeIcon />
                 Hire Me
-            </ButtonLink>
+            </StyledButtonLink>
         </div>
     </Wrapper>
 );
