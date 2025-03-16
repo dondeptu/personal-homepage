@@ -1,3 +1,4 @@
+import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Portfolio } from "./Portfolio";
 import { Skills } from "./Skills";
@@ -19,6 +20,7 @@ export const PersonalHomepage = () => {
                 />
                 <Portfolio />
             </main>
+            <Footer />
         </Wrapper>
     );
 };
