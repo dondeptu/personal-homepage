@@ -33,5 +33,7 @@ export const skillsToLearn = [
     "React Context",
     "Cypress",
     "Node.js",
+    "Tailwind CSS",
     "JS classes",
+    "Next.js",
 ];
