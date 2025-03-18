@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
         letter-spacing: 0.05em;
         word-break: break-word;
         padding-bottom: 109px;
+        transition: background 0.3s;
         
         @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             font-size: 14px;

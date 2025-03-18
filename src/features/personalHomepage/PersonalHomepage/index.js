@@ -1,3 +1,4 @@
+import { ThemeSwitch } from "../../../common/ThemeSwitch";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Portfolio } from "./Portfolio";
@@ -8,6 +9,7 @@ import { Wrapper } from "./styled";
 export const PersonalHomepage = () => {
     return (
         <Wrapper>
+            <ThemeSwitch />
             <Header />
             <main>
                 <Skills
