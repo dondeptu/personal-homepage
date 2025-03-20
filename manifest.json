@@ -1,6 +1,18 @@
 {
   "short_name": "Personal HomePage",
   "name": "Personal Homepage Donata Deptula (React)",
+  "icons": [
+    {
+      "src": "images/page-icon.png",
+      "type": "image/png",
+      "sizes": "1200x1200"
+    },
+    {
+      "src": "images/fb-sharing.png",
+      "type": "image/png",
+      "sizes": "1200x630"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
