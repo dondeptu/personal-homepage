@@ -1,12 +1,89 @@
-# Getting Started with Create React App
+# 👩‍💻 Personal Homepage
+
+This personal website serves as my portfolio, showcasing my skills, listing my future development plans, and providing an easy way to contact me. It displays links to my GitHub repositories and allows visitors to reach me via email and social media. The site also includes a dark mode theme switcher.
+
+<div>
+    <img src="forReadme/preview.gif" alt="Desktop Preview" width="500" />
+    <img src="forReadme/preview-mobile.gif" alt="Mobile Preview" width="200" />
+</div>
+
+## 🌐 Demo
+
+You can view the live version of the project here: [Personal Homepage](https://dondeptu.github.io/personal-homepage/)
+
+## 💼 Features
+
+- Lists personal skills and knowledge.
+
+- Lists future development plans ("What I want to learn next").
+
+- Displays my **GitHub repositories**.
+
+- Provides an easy way to get in touch via email and social media.
+
+- Supports a **dark mode theme** switcher.
+
+- The loading spinner is displayed while data is being **fetched from the API**.
+
+- Error handling for API failures.
+
+- Responsive Design for both **desktop and mobile devices**.
+
+## 🖥️ Technologies Used
+
+- **Frontend**:
+
+  - JavaScript (ES6+),
+
+  - React
+
+- **Styling**:
+
+  - Styled Components,
+
+  - Normalize CSS,
+
+  - GlobalStyle,
+
+  - Theme
+
+- **Layout Structure**:
+
+  - Grid-based and flexbox-based layout for responsive design
+
+- **State Management**:
+
+  - Redux,
+
+  - Redux Toolkit,
+
+  - Redux Saga
+
+- **React Hooks**:
+
+  - useEffect
+
+- **Local Storage**:
+
+  - Stores the **theme** preferences
+
+- **CSS Naming Conventions**:
+
+  - Follows the **BEM methodology** for naming files.
+
+- **Design**:
+
+  - UI based on a design provided in **Figma**.
+
+## 🚀 Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +91,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +101,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
