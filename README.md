@@ -25,7 +25,11 @@ You can view the live version of the project here: [Personal Homepage](https://d
 
 - The loading spinner is displayed while data is being **fetched from the API**.
 
+<img src="forReadme/loader.gif" alt="Loader Preview" width="350" />
+
 - Error handling for API failures.
+
+<img src="forReadme/error.png" alt="Error Preview" width="350" />
 
 - Responsive Design for both **desktop and mobile devices**.
 
