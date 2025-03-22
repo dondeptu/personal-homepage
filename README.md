@@ -65,7 +65,15 @@ You can view the live version of the project here: [Personal Homepage](https://d
 
 - **React Hooks**:
 
-  - useEffect
+  - `useEffect`
+
+  - `useState`
+
+- **Custom Hooks**:
+
+  - [`useDisableTansition`](src/core/hooks/useDisableTransition.js)
+
+  🔗 _Click on a hook name to view its implementation in the repository._
 
 - **Local Storage**:
 
