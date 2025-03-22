@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
         word-break: break-word;
         padding-top: 119px;
         padding-bottom: 109px;
-        transition: background 0.3s;
+        transition: ${({ disableTransition }) => disableTransition ? "none" : "background 0.3s"};
 
         @media(max-width: ${({ theme }) => theme.breakpoints.smallDesktopMax}px) {
             padding-top: 68px;

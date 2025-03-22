@@ -5,14 +5,16 @@ import { PersonalHomepage } from "../../features/personalHomepage/PersonalHomepa
 import { Normalize } from "styled-normalize";
 import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "../../common/themeSlice";
+import { useDisableTransition } from "../hooks/useDisableTransition";
 
 export const App = () => {
     const isDarkTheme = useSelector(selectIsDarkTheme);
+    const disableTransition = useDisableTransition();
 
     return (
         <ThemeProvider theme={isDarkTheme ? DarkMode : LightMode}>
             <Normalize />
-            <GlobalStyle />
+            <GlobalStyle disableTransition={disableTransition} />
             <PersonalHomepage />
         </ThemeProvider>
     );
